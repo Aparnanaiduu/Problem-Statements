@@ -1,0 +1,12 @@
+Golang Web App with Docker & Kubernetes
+Step 1:
+I wrote a Golang program that shows the current date and time on a simple web page.
+I uploaded this code to GitHub.
+Then, I created a Docker image for it and pushed it to DockerHub.
+Basically, I containerized a small web app that only shows date and time.
+Step 2:
+I used Kubernetes to deploy this Docker container.
+I followed the declarative approach by writing a deployment YAML file.
+I made sure it runs with 2 replicas, so it’s always available.
+Step 3:
+Finally, I exposed this app to the internet using a Kubernetes service, so anyone can access it online.
