@@ -1,0 +1,7 @@
+Kubernetes Security Scan
+
+Steps I Followed:
+1. I installed a local Kubernetes cluster using Minikube on my system.
+2. Once the setup was done, I used a tool called Kubescape to scan the cluster for any security issues or misconfigurations.
+3. After the scan, Kubescape gave me a report of the findings.
+4. I saved that output as a JSON file, which includes all the issues found during the scan.
