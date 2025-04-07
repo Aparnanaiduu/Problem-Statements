@@ -1,0 +1,32 @@
+1. Product Requirements Document
+Overview: This product helps users scan container images to find vulnerabilities in the applications and components inside them. It shows how risky each image is and what needs fixing.
+
+Main Features:
+Upload or select container images from a repository.
+Automatically scan the image for known vulnerabilities.
+Show the severity level: low, medium, high, or critical.
+Display suggestions or fixes if available.
+Why This is Useful: Users usually manage hundreds or thousands of images. This tool helps them save time by highlighting which images need urgent attention and gives clear action steps.
+
+Target Users:
+Developers
+DevOps teams
+Security engineers
+Goals:
+Make it easy to scan and identify risky images.
+Show results clearly so that users can take quick action.
+Allow users to track which images were already scanned and fixed
+2. Low-Fidelity Wireframes
+Screen 1: Dashboard
+"Upload Image" button
+List of previously scanned images
+Scan Status
+Screen 2: Scan Results
+Image name
+List of found vulnerabilities
+Severity level
+Fix suggestions
+Screen 3: Image History
+Past scanned images
+Timestamp
+Status: Fixed / Needs Attention
